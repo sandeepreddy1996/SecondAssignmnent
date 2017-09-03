@@ -1,0 +1,140 @@
+/* Default style =body= */
+body{
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+}
+/* =header= style and fixing its position */
+header {
+  background: #000000;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;  
+}
+/* =header h1= style */
+header h1 {
+  float: left;
+  text-transform: uppercase;
+  margin-top: 12px;
+  font-family: 'Crete Round', serif;
+}
+
+header h1 a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+/* =header li= style */
+header li{
+  display: inline;
+}
+/* =header li a= style */
+header li a{
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Crete Round', serif;
+}
+/* =header li a:hover- style=*/
+header li a:hover{
+  color: black;
+  background: #FFFFFF;
+  padding: 5px; 
+}
+/* =navigation bar= style */
+nav{
+  float: right;
+  padding-right: 10px;
+  margin-top: 16px;
+}
+/* =content= style */
+.content{
+  margin-top: 62px;
+  font-family: 'Old Standard TT', serif;
+}
+
+.subtitle, .desc{
+  margin-top: -10px;
+}
+
+.grid_8{
+  height: 450px;
+}
+
+.first{
+  margin-top: 30px;
+} 
+/* =feedback= section style */
+.feedback{
+  text-align: center;
+  font-family: 'Crete Round', serif;
+  background: black;
+  color: #FFFFFF;
+}
+
+.feedback h3 a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.feedback h3 a:hover{
+  color: black;
+  background: #FFFFFF;
+  padding: 2px;
+}
+/* =form= style */
+form{
+  position: relative;
+  clear: both;
+  top: 100px;
+  width: 100%;
+  height: 95%;
+  margin: auto;
+  text-align: left;
+}
+
+form ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+form li{
+  display: block;
+  padding-bottom: 10px;
+
+}
+
+form label{
+  display: block;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+form textarea{
+  height: 200px;
+  width: 400px;
+}
+/* =footer= style */
+footer{
+  font-family: 'Crete Round', serif;
+  background: black;
+  color: white;
+  
+  clear: both;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer a:hover{
+  color: black;
+  background: #FFFFFF;
+  padding: 2px;
+}
